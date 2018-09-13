@@ -30,10 +30,10 @@ summary {
 audio,
 canvas,
 progress,
-video {
+/* video {
   display: inline-block;
   vertical-align: baseline;
-}
+} */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -734,8 +734,8 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
 }
